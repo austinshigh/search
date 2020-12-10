@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced</title>
+        <link href="styles.css" rel="stylesheet">
+        <div class=advhead>
+            <div class = links>
+                <h3 class = "head_one">
+                    <a href="search.html" id = googlesearch> Google Search</a> </h3>
+                <h3 class = "head_two">
+                    <a href="image.html" id = imagesearch> Google Image Search</a> </h3>
+            </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png" alt="Google" class = advlogo>
+        </div>
+        <h2 class = subheader> Advanced Search </h2>
+        <hr id=hr2 />
+    </head>
+    <body>
+        <div class = findpages> Find pages with... </div><br>
+        <form class = advancedsearch action="https://www.google.com/search">
+            <div class = allword>
+                all these words:<input type="text" id = box1 name="as_q"><br>
+            </div>
+            <div class = exactword>
+                this exact word or phrase:<input type="text" id = box2 name="as_epq"><br>
+            </div>
+            <div class = anyword>
+                any of these words: <input type="text" id = box3 name="as_oq"><br>
+            </div>
+            <div class = noneword>
+                none of these words: <input type="text" id = box4 name="as_eq"><br>
+            </div>
+            <input type="submit" id = advancedbutton value="Advanced Search">
+        </form>
+    </body>
+</html>
